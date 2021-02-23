@@ -424,7 +424,7 @@ def combined_preprocessing(ds):
         # fix the units
         ds = correct_units(ds)
         # replace x,y with nominal lon,lat
-        ds = replace_x_y_nominal_lat_lon(ds)
+        #ds = replace_x_y_nominal_lat_lon(ds)
         # rename the `bounds` according to their style (bound or vertex)
         ds = parse_lon_lat_bounds(ds)
         # sort verticies in a consistent manner
